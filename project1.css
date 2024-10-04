@@ -1,0 +1,144 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+
+body{
+  background-color: #060522;
+}
+.mid{ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  color: white;
+  background-color:#443840;
+  height: 400px;
+  width: 1320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border:solid rgb(99, 67, 172); */
+  /* border-bottom-left-radius: 150px;
+  border-bottom-right-radius: 200px; */
+  border-top-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+  
+  margin: 10px;
+}
+a{ color: white;
+  text-decoration: none;
+  font-size: medium;
+ 
+}
+
+.nav-container {
+  position: static;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding: 20px;
+  margin-left: 50px;
+} 
+
+.nav-container nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+
+}
+
+
+
+
+ button a{
+ color: white;
+ text-decoration: none;
+ }
+
+.signUp{
+  background-color: rgb(109, 182, 109);
+  border: 0px;
+  padding: 10px;
+  border-radius: 50px;
+  width: 100px;
+}
+
+.signUp:hover{
+  background-color: green;
+}
+
+.login {
+  background-color: rgb(201, 168, 106);
+  border: 0px;
+  padding: 10px;
+  width: 100px;
+  border-radius: 50px;
+}
+
+.login:hover {
+  background-color: rgb(196, 139, 15);
+}
+
+ul{
+  list-style: none;
+  margin: 20px;
+}
+
+.docs {
+  background-color: rgb(224, 134, 98);
+  border: 0px;
+  padding: 10px;
+  border-radius: 50px;
+  width: 150px;
+}
+
+.docs:hover {
+  background-color: rgb(238, 94, 37);
+}
+
+.exp {
+  background-color: rgb(160, 132, 146);
+  border: 0px;
+  padding: 10px;
+  border-radius: 50px;
+  width: 100px;
+}
+
+.exp:hover {
+  background-color: rgb(204, 11, 188);
+}
+
+.container {
+  margin-top: 10px;
+  padding-left: 200px;
+  padding-right: 200px;
+  color: white;
+  
+}
+
+table, th, td{
+  border-collapse: collapse;
+  border: solid 1px gray;
+
+
+}
+
+.table-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-link1{
+  padding: 20px;
+  color: rgb(92, 87, 87);
+}
+.footer-link2 {
+  color: rgb(71, 69, 69);
+}
+
+ul{
+  display: flex;
+  justify-content: center;
+  
+}
